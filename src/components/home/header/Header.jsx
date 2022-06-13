@@ -1,6 +1,8 @@
 import React from "react";
 import { useState } from "react";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Link } from "react-router-dom";
+import SearchOutlinedIcon from "@mui/icons-material/SearchOutlined";
+
 export const Header = () => {
   const [sidebar, setSidebar] = useState(false);
 
@@ -17,7 +19,25 @@ export const Header = () => {
               onClick={() => setSidebar(false)}
             >
               <li>
-                <a href="/">Home</a>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="/pages">Pages</Link>
+              </li>
+              <li>
+                <Link href="/blog">Blog</Link>
+              </li>
+              <li>
+                <Link href="/portfolio">Portfolio</Link>
+              </li>
+              <li>
+                <Link href="/shop">Shop</Link>
+              </li>
+              <li>
+                <Link href="/contact">Contact</Link>
+              </li>
+              <li className="icon">
+                <SearchOutlinedIcon />
               </li>
             </ul>
           </div>
