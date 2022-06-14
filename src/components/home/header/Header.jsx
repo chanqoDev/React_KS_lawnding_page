@@ -9,13 +9,21 @@ import CloseIcon from "@mui/icons-material/Close";
 
 export const Header = () => {
   const [sidebar, setSidebar] = useState(false);
-
+  window.addEventListener("scroll", () => {
+    const header = document.querySelector(".header");
+    header.classList.toggle("active", window.screenY > 200);
+  });
   return (
     <div>
       <header className="header">
         <div className="container flex">
           <div className="logo">
-            <img src="assets/logo.png" alt="my brand" />
+            <img
+              src="assets/logo.png"
+              alt="my brand"
+              width="200px"
+              height="70px"
+            />
           </div>
           <div className="nav">
             <ul
