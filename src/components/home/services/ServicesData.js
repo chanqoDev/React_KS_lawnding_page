@@ -9,7 +9,7 @@ const ServicesData = [
     id: 2,
     title: "Tree & Shrub Care",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: "./assets/Shrub_tree.jpeg",
+    cover: "./assets/about.png",
   },
   {
     id: 3,
@@ -33,7 +33,7 @@ const ServicesData = [
     id: 6,
     title: "Lawn Care Programs",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: "./assets/about.png",
+    cover: "./assets/Shrub_tree.jpeg",
   },
 ];
 

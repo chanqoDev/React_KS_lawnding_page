@@ -303,3 +303,17 @@ h3 {
   font-size: 22px;
   margin-bottom: 20px;
 }
+
+/* Wrapper  */
+.wrapper .container {
+max-width: 40%;
+margin: auto; 
+text-align: center;
+}
+.wrapper h2{
+font-size: 40px;
+}
+.wrapper p {
+  opacity: 1;
+  margin-bottom: 30px;
+}

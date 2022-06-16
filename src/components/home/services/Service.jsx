@@ -16,12 +16,7 @@ const Service = () => {
               return (
                 <div className="box">
                   <div className="img">
-                    <img
-                      src={service.cover}
-                      alt=""
-                      width="auto"
-                      height="auto"
-                    />
+                    <img src={service.cover} alt="" />
                   </div>
                   <div className="text">
                     <h2>{service.title}</h2>

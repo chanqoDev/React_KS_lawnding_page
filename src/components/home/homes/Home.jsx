@@ -37,10 +37,11 @@ const Home = () => {
               </i>
             </div>
             <p>
-              lorem ;alsdfpoawienpoaiwf;lkasd;f jas;ldkfj
-              a;sldkjfa;lskdjf;laksjd;f lkajsdlcmaslkdmf['alksdfjg;lksd
-              jfg;kdfjhglksdhjfgklsdfgklsdhflgksdklfg sdf sdflkgjhs dlfkgjhs
-              dlfkghslkdfjhglksdjfhglksjdhfglkjshd f
+              When you want quality lawn care services, depend on family-owned
+              and locally-operated RBE Lawn Care, LLC. With over 20 years of
+              experience in lawn care, snow removal, landscape maintenance and
+              other services, you can rest assured knowing that exceptional
+              services will be provided to you.
             </p>
             <button className="primary-btn">Contact Us</button>
           </div>
