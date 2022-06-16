@@ -3,20 +3,20 @@ import React from "react";
 const WrapperOne = () => {
   const data = [
     {
-      num: "520%",
-      text: "AWARDS WINNING",
+      num: "17",
+      text: "AWARDS WINNING LANDSCAPE",
     },
     {
       num: "99%",
       text: "SATISFIED CLIENTS",
     },
     {
-      num: "3325",
-      text: "CREATIVE PROJECTS",
+      num: "765",
+      text: "CREATIVE LAWN PROJECTS",
     },
     {
-      num: "54380",
-      text: "LINES OF CODE ",
+      num: "54,380",
+      text: "MOWED LAWNS",
     },
   ];
   return (
