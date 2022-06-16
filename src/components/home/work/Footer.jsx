@@ -11,7 +11,7 @@ const Footer = () => {
   return (
     <>
       <footer>
-        <div className="container grid">
+        <div className="container grid1">
           <div className="box">
             <img src="./assets/logo.png" alt="" width="150px" height="50px" />
             <p>

@@ -8,6 +8,7 @@ import WrapperOne from "../home/services/WrapperOne";
 import Skills from "../home/Skills";
 import Work from "../home/work/Work";
 import Wrapper from "../home/Wrapper";
+import { Pages } from "../pages/Pages";
 
 const HomePages = () => {
   return (
