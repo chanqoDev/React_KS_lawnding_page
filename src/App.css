@@ -365,3 +365,21 @@ margin-bottom: 20px;
 .skill .right p {
   margin-bottom: 20px;
 }
+
+/* wrapperOne  */
+.grid1 {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 30px; 
+}
+.wrapperOne {
+  background-color: #218c74;
+  text-align: center;
+}
+.wrapperOne h1{
+  color: #fff;
+}
+.wrapperOne p {
+  font-size: 14px;
+  margin: 10px 0; 
+}
