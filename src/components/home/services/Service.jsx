@@ -14,18 +14,20 @@ const Service = () => {
           <div className="contain grid topMargin">
             {ServicesData.map((service) => {
               return (
-                <>
-                  <div className="box">
-                    <div className="img">
-                      <img src={service.cover} alt="" />
-                    </div>
-                    <div className="text">
-                      <h2>{service.title}</h2>
-                      <p> {service.desc}</p>
-                    </div>
+                <div className="box">
+                  <div className="img">
+                    <img
+                      src={service.cover}
+                      alt=""
+                      width="auto"
+                      height="auto"
+                    />
                   </div>
-                  ;
-                </>
+                  <div className="text">
+                    <h2>{service.title}</h2>
+                    <p> {service.desc}</p>
+                  </div>
+                </div>
               );
             })}
           </div>

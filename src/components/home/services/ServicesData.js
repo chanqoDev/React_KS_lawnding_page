@@ -3,7 +3,7 @@ const ServicesData = [
     id: 1,
     title: "Lawn Mowing Services",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: "./assets/main_landscape.jpeg",
+    cover: "./assets/lawnn.png",
   },
   {
     id: 2,
@@ -33,7 +33,7 @@ const ServicesData = [
     id: 6,
     title: "Lawn Care Programs",
     desc: "Lorem ipsum dolor sit amet, consecte tuer adipiscing elit enean.",
-    cover: "./assets/lawn-care-slide.jpeg",
+    cover: "./assets/about.png",
   },
 ];
 
