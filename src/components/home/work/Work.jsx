@@ -8,7 +8,7 @@ const Work = () => {
       <section className="work">
         <div className="heading">
           <h3>My works</h3>
-          <h1>Some of my completed projects </h1>
+          <h1>Some of my completed projects</h1>
         </div>
         <div className="content">
           {Data.map((val) => {
@@ -19,8 +19,8 @@ const Work = () => {
                 </div>
                 <div className="overlay">
                   <div className="text">
-                    <h2> {val.title}</h2>
-                    <p> {val.desc}</p>
+                    <h2>{val.title}</h2>
+                    <p>{val.desc}</p>
                   </div>
                   <div className="icon">
                     <FullscreenIcon className="iconWork" />
